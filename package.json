@@ -1,5 +1,5 @@
 {
-  "name": "sequelize",
+  "name": "sequelize-test",
   "version": "1.0.0",
   "description": "Ramp up sequelize",
   "main": "index.js",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/sergeialimov/sequelize/issues"
   },
-  "homepage": "https://github.com/sergeialimov/sequelize#readme"
+  "homepage": "https://github.com/sergeialimov/sequelize#readme",
+  "dependencies": {
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.3"
+  }
 }
